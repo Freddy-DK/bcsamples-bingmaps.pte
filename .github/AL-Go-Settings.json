@@ -14,6 +14,15 @@
       }
     }
   ],
+  "fkh": {
+    "CreateContainer.cpu": "500m",
+    "CreateContainer.memory": "3Gi",
+    "CreateContainer.spot": "false",
+    "CreateContainer.moveAllAppsToDevScope": "true",
+    "CreateContainer.updateLaunchJson": "repo",
+    "CreateContainer.autostop": "18:00",
+    "StartContainer.autostop": "18:00"
+  },
   "runs-on": "ubuntu-latest",
   "shell": "pwsh",
   "artifact": "/sandbox/27.5/us/first",
