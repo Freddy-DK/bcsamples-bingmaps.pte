@@ -16,6 +16,7 @@
   ],
   "runs-on": "ubuntu-latest",
   "shell": "pwsh",
+  "artifact": "/sandbox/27.5/us/first",
   "githubRunner": "windows-latest",
   "githubRunnerShell": "pwsh",
   "UpdateDependencies": true,
