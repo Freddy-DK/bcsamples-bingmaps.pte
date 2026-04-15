@@ -4,5 +4,7 @@
             "path": ".AL-Go"
         }
     ],
-    "settings": {}
+    "settings": {
+      "fkh.backendUrl": "fkh-freddydk-backend.azurewebsites.net/api"
+    }
 }
